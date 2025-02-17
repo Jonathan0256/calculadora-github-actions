@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-counter',
   standalone: true,
-  imports: [CommonModule, NgIf],
+  imports: [CommonModule],
   templateUrl: './counter.component.html',
   styleUrl: './counter.component.css'
 })
