@@ -45,6 +45,6 @@ describe('CounterComponent', () => {
   it('should reset the count to 0 when reset is called', () => {
     component.count = 10;
     component.reset();
-    expect(component.count).toBe(1);
+    expect(component.count).toBe(0);
   });
 });
