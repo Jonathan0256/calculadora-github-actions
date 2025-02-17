@@ -1,4 +1,6 @@
-name: CI - Angular Tests
+jobs:
+  build:
+    name: CI - Angular Tests
 
 on:
   push:
